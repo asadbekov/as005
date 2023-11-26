@@ -1,0 +1,339 @@
+/*---Normalize CSS----*/
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: r;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding: 0 16px;
+  margin: 0 auto;
+  
+}
+.container-secondary {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+.container-two{
+  width: 100%;
+  max-width: 1140px;
+  padding: 0 105px;
+  margin: 0 auto;
+}
+.container-three{
+  width: 100%;
+  max-width: 1140px;
+  padding: 0 105px;
+  margin: 0 auto;
+}
+.container-four{
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 16px;
+  margin: 0 auto; 
+}
+.container-five{
+  width: 100%;
+  max-width: 1140px;
+  padding: 0 16px;
+  margin: 0 auto; 
+  border-radius: 24px;
+  background: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  padding: 70px 65px;
+  flex-wrap: wrap;
+}
+button:hover{
+  background-color: #458ff6;
+  transition: all ease 0.3s;
+  color: white;
+}
+.container-six{
+
+  width: 100%;
+  max-width: 1240px;
+  padding: 25px 25px;
+  margin: 0 auto; 
+  padding: 70px 65px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  color: #458ff6;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 60px;
+  border-radius: 55px;
+  border: 1.4px solid #458ff6;
+  padding: 4px 49px;
+  background-color: #fff;
+  transition: all ease 0.3s;
+  margin-top: 50px;
+}
+.btn :hover {
+  background-color: #458ff6;
+  color: #fff;
+}
+.btn.btn-primary {
+  background-color: #458ff6;
+  color: white;
+  padding-top: 10px;
+}
+.btn-two{
+    margin-bottom: 30 px;
+      margin-top: 200px;  
+   
+}
+.btn-four{
+  margin-bottom: 300px;
+  margin-top: 300px;
+
+}
+.card-btn{
+  border: none;
+  background-color: #FFF;
+}
+.card-btn a{
+  color: #4A99D3;
+  font-family: Objective;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 214.286% */
+  letter-spacing: 0.7px;
+  margin-right: 15px;
+}
+/*---Normalize CSS----*/
+
+/*---Start header Section----*/
+.wrapper{
+    padding-top: 70px;
+}
+.wrapper-two{
+  padding-top: 350px;
+  margin: 25px auto;    
+  margin-right: 25px;
+}
+.wrapper-three{
+  padding-top: 200px;
+  margin-left: 25px;
+}
+.wrapper-four{
+  padding-top: 200px;
+  margin-left: 25px;
+
+  ;
+}
+.wrapper-six{
+  margin-right: 0px;
+}
+
+.header{
+    margin-bottom: 84px;
+}
+.header-list-link {
+  color: var(--1f1534-hyfen, #1f1534);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  padding: 12px 15 px;
+  opacity: 0.5px;
+  transition: all ease 0.6s;
+}
+.header-list li {
+  margin: 0 10px;
+}
+.header-list li :hover {
+  font-weight: 700;
+  color: black;
+  opacity: 1px;
+  margin: 0 5px;
+}
+.wrapper {
+  padding-top: 70px;
+}
+button:hover{
+background-color: #458ff6;
+transition: all ease 03.s;
+
+}
+/*---End header Section----*/
+
+/*---Start hero Section----*/
+.hero-title {
+  color: #000;
+  font-family: Mulish;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  margin-bottom: 25px;
+}
+.hero.subtitle {
+  color: #7d7987;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 32px;
+  margin-bottom: 45px;
+}
+.hero-subtitle-two{
+  color: #7D7987;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 45px;
+}
+.hero-subtitle-white{
+  color: rgba(255, 255, 255, 0.90);
+  font-family: Mulish;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 157.895% */
+}
+/*---End hero Section----*/
+
+/*---Start service section----*/
+.service-holder{
+    background-image: url(./images/Vector.png);
+    background-repeat: no-repeat;
+    background-size: 860px 593px;
+    background-position: -116px 183px;
+}
+.service-holder-two{
+  background-image: url(./images/Vector.png);
+  background-repeat: no-repeat;
+  background-size: 860px 593px;
+  background-position: -116px 183px;
+}
+.service-title{
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.line{
+    border-radius: 5px;
+    background: #27AE60; 
+    width:56px ;
+    height: 2px;  
+    display: block;
+    margin: 0 auto ;
+    margin-bottom: 33px;
+}
+.line-second{
+  border-radius: 5px;
+  background: #000; 
+  width:56px ;
+  height: 2px;  
+  display: block;
+  margin: 0px;
+  margin-bottom: 33px;
+}
+.service-subtitle{
+    color: #7D7987;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 80px;
+}
+.cards{
+    flex-wrap: wrap;
+}
+.cards-all{
+  flex-wrap: wrap;
+}
+.card{
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+        padding: 37px 46px;
+        width: 250px;
+        height: 260px;
+        margin-bottom: 37px;
+}
+.card img{
+    margin-bottom: 23 px;
+    flex-shrink: 0;
+}
+.card h3{
+    color: #000;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; 
+}
+.card p{
+    color: #7D7987;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px; /* 175% */
+
+}
+.card-one{
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+      padding: 5px 20px;
+      width: 350px;
+      height: 512px;
+      margin-bottom:25px;
+}
+.card-one img{
+  margin-bottom: 0 px;
+  flex-shrink: 0px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  margin-inline: -9px;
+}
+#green{
+color: var(--Green-2, #27AE60);
+font-family: Mulish;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px;
+}
+.sty{
+ margin: 0;
+padding: 0;
+text-align: center
+;
+
+}
+/*---End servic Section----*/
